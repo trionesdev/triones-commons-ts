@@ -1,6 +1,6 @@
 {
   "name": "@trionesdev/browser-commons",
-  "version": "0.1.2-beta.0",
+  "version": "0.0.1-beta.0",
   "description": "trionesdev browser commons",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -31,5 +31,5 @@
     "js-cookie": "^3.0.5",
     "lodash": "^4.17.21"
   },
-  "gitHead": "57c916d8d53515d5e2e89db600b5870925da6b5b"
+  "gitHead": "3f6e8e1e616b15c247910665abb3537186754395"
 }

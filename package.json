@@ -15,8 +15,7 @@
     "prelease:force": "lerna publish from-package --yes --dist-tag next",
     "release": "lerna publish",
     "codingPublish": "lerna publish",
-    "format": "prettier --write \"**/*.{ts,tsx,js,json,css,less}\"",
-    "prepare": "husky install"
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,css,less}\""
   },
   "dependencies": {
   },

@@ -1,6 +1,6 @@
 {
   "name": "@trionesdev/browser-commons",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.0",
   "description": "trionesdev browser commons",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -23,9 +23,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "father": "^4.5.1-beta.4",
+    "@types/js-cookie": "^3.0.6",
     "@types/lodash": "^4.14.191",
-    "@types/js-cookie": "^3.0.6"
+    "father": "^4.5.1-beta.4"
   },
   "dependencies": {
     "js-cookie": "^3.0.5",

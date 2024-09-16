@@ -8,7 +8,10 @@
     "dev": "father dev",
     "build": "father build",
     "build:deps": "father prebundle",
-    "prepublishOnly": "father doctor && npm run build"
+    "prepublishOnly": "father doctor && npm run build",
+    "publish": "npm publish --registry=https://registry.npmjs.org/",
+    "publishOnly": "npm publish --ignore-scripts --registry=https://registry.npmjs.org/",
+    "triones:publishOnly": "npm publish --ignore-scripts --registry=https://moensun-npm.pkg.coding.net/npm/moensun/"
   },
   "keywords": [],
   "authors": [
@@ -31,5 +34,5 @@
     "js-cookie": "^3.0.5",
     "lodash": "^4.17.21"
   },
-  "gitHead": "403219661a5c2e07039618ca65a7aca402cb1b3c"
+  "gitHead": "033cee0b6aa2e608fd5317175da8e0c8e22001e2"
 }

@@ -24,6 +24,13 @@ export class DateUtils {
         }
     };
 
+    static formatDateTimeSeconds = (date?: number) => {
+    	if (date) {
+    		return dayjs(date).format('YYYY-MM-DD HH:mm:ss');
+    	}
+    	return "";
+    };
+
     static fromNow = (date: number) => {
         if (!date) {
             return "";
